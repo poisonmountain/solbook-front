@@ -18,12 +18,12 @@
 
 .Header .header_left {
   display: flex;
-  width: 25;
+  width: 25%;
   justify-content: flex-start;
 }
 .Header .header_right {
   display: flex;
-  width: 25;
+  width: 25%;
   justify-content: flex-end;
 }
 
@@ -31,17 +31,11 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  margin-left: 10px;
 }
 
 .logo-image {
-  height: 40px;
+  height: 24px;
   width: auto;
   max-width: 100%;
   margin-right: 2px;
-}
-
-.logo-text {
-  font-size: 20px;
-  font-weight: bold;
 }

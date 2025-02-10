@@ -9,7 +9,6 @@ export default function Header({ logo }) {
       <div className="header_left">
         <div className="logo-container" onClick={() => navigate('/')}>
           {logo ? <img src={logo} alt="Logo" className="logo-image" /> : null}
-          <span className="logo-text">SolBook</span>
         </div>
       </div>
       <div className="header_center">dd</div>
