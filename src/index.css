@@ -8,6 +8,7 @@ body {
   margin: 0px;
   width: 100%;
   background-color: rgb(246, 246, 246);
+  color: #333;
 }
 
 #root {
@@ -23,4 +24,11 @@ body {
 
 body * {
   font-family: 'NotoSansKR';
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    max-width: 100%; /* 모바일에서는 전체 너비 */
+    box-shadow: none; /* 모바일에서는 그림자 제거 */
+  }
 }

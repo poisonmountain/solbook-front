@@ -1,0 +1,28 @@
+.home-container {
+  text-align: center;
+}
+
+.home-body-header {
+  text-align: left;
+}
+
+.home-body-header > h2 {
+  margin-bottom: 0;
+}
+
+.home-body-header > p {
+  margin-top: 0;
+  color: #616161;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .book-slider-container {
+    width: 100%; /* 모바일에서 꽉 차도록 설정 */
+    padding: 5px;
+  }
+
+  .book-slider {
+    gap: 8px; /* 간격 줄이기 */
+  }
+}

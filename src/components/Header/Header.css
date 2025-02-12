@@ -1,0 +1,38 @@
+.Header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.Header > div {
+  display: flex;
+}
+
+.Header .header_center {
+  width: 50%;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.Header .header_left {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+}
+
+.Header .header_right {
+  display: flex;
+  width: 25%;
+  justify-content: flex-end;
+}
+
+.icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header_right .icon:not(:last-child) {
+  margin-right: 35px;
+}
