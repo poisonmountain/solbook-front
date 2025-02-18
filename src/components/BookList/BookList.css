@@ -1,0 +1,11 @@
+.BookList {
+  padding: 20px 5px;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 5px;
+}
+
+.BookList .bookcard-list-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}

@@ -3,6 +3,7 @@ import './Home.css';
 import Header from '../../components/Header/Header';
 import Logo from '../../components/Logo/Logo';
 import { FaSearch, FaBars } from 'react-icons/fa';
+import BookList from '../../components/BookList/BookList';
 
 const books = [
   { id: 1, title: '토비의 스프링 3.1', image: toby },
@@ -26,9 +27,11 @@ export default function Home() {
       />
       <div className="home-container">
         <div className="home-body-header">
-          <h2>📖 퀴즈를 풀어보세요.</h2>
-          <p>풀고 싶은 분야를 선택해보세요.</p>
+          <h2 className="home-body-title">📖 퀴즈를 풀어보세요.</h2>
+          <p className="home-body-content">풀고 싶은 분야를 선택해보세요.</p>
         </div>
+
+        <BookList />
       </div>
     </>
   );

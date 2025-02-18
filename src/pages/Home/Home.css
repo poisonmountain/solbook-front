@@ -16,13 +16,6 @@
   font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
-  .book-slider-container {
-    width: 100%; /* 모바일에서 꽉 차도록 설정 */
-    padding: 5px;
-  }
-
-  .book-slider {
-    gap: 8px; /* 간격 줄이기 */
-  }
+.home-body-header .home-body-title {
+  margin-bottom: 7px;
 }
